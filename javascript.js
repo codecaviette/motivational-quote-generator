@@ -7,7 +7,8 @@ let quotes = [
     'Success doesn’t just find you. You have to go out and get it.',
     'Wake up with determination. Go to bed with satisfaction.',
     'Do something today that your future self will thank you for.',
-    'The key to success is to focus on goals, not obstacles.' 
+    'The key to success is to focus on goals, not obstacles.', 
+    'Just keep going. Everybody gets better if they keep at it.'
     
 ]
 
