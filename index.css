@@ -1,4 +1,15 @@
 body {
-    font-family: "Inter", sans-serif;
-    color: #313131;
+    font-family: "Overpass", sans-serif;
+    background-color: #c0dbda;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    font-size: large;
+}
+
+span {
+    color: rgb(247, 240, 240);
+    background-color: rgb(105, 105, 105);
+    box-shadow: 0 0 0 10px rgb(105, 105, 105);
 }
