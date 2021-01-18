@@ -4,12 +4,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 80vh;
-    font-size: large;
+    height: 95vh;
+    font-size: larger;
 }
 
 span {
-    color: rgb(247, 240, 240);
-    background-color: rgb(105, 105, 105);
-    box-shadow: 0 0 0 10px rgb(105, 105, 105);
+    color: white;
+    background-color: rgb(80, 79, 79);
+    box-shadow: 0 0 10px 17px rgb(80, 79, 79);
+    border-radius: 0.2px;
 }
