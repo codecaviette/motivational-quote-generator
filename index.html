@@ -6,13 +6,20 @@
 
     <link rel="stylesheet" href="index.css">   <!-- Use index.css for styling -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter|Amiko|Overpass" />
-
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />    <!-- Import and use AOS for animation/fade-in -->
 </head>
 
 <body>
 <span> 
-    <div id="quoteDisplay"></div>  <!-- Quotes will display here based on element with this id in the JS file  -->
+    <div id="quoteDisplay" data-aos="zoom-out" data-aos-delay="200" data-aos-duration="2000"></div>  <!-- Quotes will display here based on element with this id in the JS file  -->
     <script src="javascript.js"></script> <!-- We're getting app functionality from JS file -->
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script> <!-- Initialize AOS -->
+    <script>
+        AOS.init({
+            duration: 1500,
+        });
+    </script>
 </span>
 </body>
 
