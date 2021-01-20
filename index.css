@@ -1,7 +1,7 @@
 body {
-    font-family: "Overpass", sans-serif;
-    color: white;
-    background-color: #c9aba8;
+    font-family: "Merriweather", sans-serif;
+    color: rgb(37, 37, 37);
+    background-color: #e6cecb;
     display: flex;
     justify-content: center;
     align-items: center;
