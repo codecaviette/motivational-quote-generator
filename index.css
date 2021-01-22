@@ -5,8 +5,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 95vh;
-    font-size: xx-large;
+    height: 90vh;
+    font-size: x-large;
+    padding: 50px 0;
+
 }
 
 /*span {
