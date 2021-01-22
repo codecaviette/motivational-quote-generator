@@ -8,8 +8,12 @@ let quotes = [
     'Wake up with determination. Go to bed with satisfaction.',
     'Do something today that your future self will thank you for.',
     'The key to success is to focus on goals, not obstacles.', 
-    'Just keep going. Everybody gets better if they keep at it.'
-    
+    'Just keep going. Everybody gets better if they keep at it.',
+    'Each step is taking you to where you want to be.',
+    'You am capable.',
+    'What are you going to do about it?',
+    'Be the light, spread the love and joy.',
+    'My life is unfolding beautifully.'    
 ]
 
 // Define function to generate random quote from quotes array each time the browser window is reloaded:
