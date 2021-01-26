@@ -1,4 +1,4 @@
-Inspiration from freeCodeCamp https://www.freecodecamp.org/news/creating-a-bare-bones-quote-generator-with-javascript-and-html-for-absolute-beginners-5264e1725f08/
+Inspiration from Ryan Mariner Farney's blog post https://medium.com/@ryanfarney/creating-a-chrome-extension-that-will-open-in-a-new-tab-bc06b7eb54aa
 
 
 
