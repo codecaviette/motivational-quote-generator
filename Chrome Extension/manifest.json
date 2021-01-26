@@ -11,10 +11,11 @@
 },
 
 "browser_action": {
-    "default_icon": "cloud-icon.png"
+    "default_icon": "icon.png"
 },
 
 "permissions": [
     "tabs"
 ]
+
 }
