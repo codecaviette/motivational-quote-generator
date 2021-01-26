@@ -1,15 +1,29 @@
+
+/* Create separate html section just for background image so it spans 
+the entire screen regardless of size. It was previously in the body section 
+with everything else */
+html { 
+    background: url("clouds.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* This is to style and position the text on the page */
 body {
     font-family: "Merriweather", sans-serif;
     color: white;
-    background-image: url("clouds.jpg");
-    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 90vh;
+    vertical-align: middle;
+    height: 80vh;
     font-size: x-large;
-    padding: 50px 0;
+}
 
+#quoteDisplay {
+    margin: 0 40px
 }
 
 /*span {
