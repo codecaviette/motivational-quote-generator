@@ -1,7 +1,7 @@
 
 /* Create separate html section just for background image so it spans 
 the entire screen regardless of size. It was previously in the body section 
-with everything else */
+with everything else, causing extra space below the image */
 html { 
     background: url("clouds.jpg") no-repeat center center fixed; 
     -webkit-background-size: cover;
@@ -22,6 +22,7 @@ body {
     font-size: x-large;
 }
 
+/* This applies styling to only the text with the quoteDisplay id (in html doc) */
 #quoteDisplay {
     margin: 0 40px
 }
