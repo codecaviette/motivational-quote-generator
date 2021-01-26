@@ -22,7 +22,9 @@ body {
     font-size: x-large;
 }
 
-/* This applies styling to only the text with the quoteDisplay id (in html doc) */
+/* This applies margins on the side of the text so that when the browser window is minimized, the text 
+won't run to the edge of screen;
+this separate section applies styling to only the text with the quoteDisplay id (in html doc) */
 #quoteDisplay {
     margin: 0 40px
 }
