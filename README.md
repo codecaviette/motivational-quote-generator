@@ -1,4 +1,4 @@
-Inspiration from Ryan Mariner Farney's blog post https://medium.com/@ryanfarney/creating-a-chrome-extension-that-will-open-in-a-new-tab-bc06b7eb54aa
+Inspiration from Ryan Mariner Farney's blog post https://medium.com/@ryanfarney/creating-a-chrome-extension-that-will-open-in-a-new-tab-bc06b7eb54aa and freeCodeCamp's https://www.sitepoint.com/create-chrome-extension-10-minutes-flat/
 
 
 
