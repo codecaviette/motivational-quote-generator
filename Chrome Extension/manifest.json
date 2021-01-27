@@ -2,7 +2,7 @@
 
 "manifest_version": 2,
 
-"name": "New Tab, New Motivational Quote",
+"name": "New Tab, New Quote",
 "description": "This extension will display a new motivational quote every time the user opens a new browser tab.",
 "version": "1.0",
 

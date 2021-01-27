@@ -12,7 +12,7 @@ Inspiration from Ryan Mariner Farney's blog post https://medium.com/@ryanfarney/
 <!-- - [To-Do](#future) -->
 
 ## <a name="general-info"></a>General Info
-Jenny's Portfolio is a responsive personal marketing website built from the ground up. This single page app uses HTML anchors, CSS animations, and a Bootstrap navigation bar. It was refactored from HTML to React.  
+New Tab, New Quote is a Chrome Extension that displays a new motivational quote every time the user opens a new browser tab.  
 
 ## <a name="demo-video"></a>Demo Video
 See the live version here: https://jenny-chou.netlify.app/ and demo video below.
@@ -28,9 +28,6 @@ Project is created with:
 - Javascript 
 - HTML 
 - CSS
-- React
-- Bootstrap
-
 ## <a name="installation"></a>Installation
 To have this app running on your local computer, please follow the below steps:
 
