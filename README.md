@@ -1,8 +1,3 @@
-Inspiration from Ryan Mariner Farney's blog post https://medium.com/@ryanfarney/creating-a-chrome-extension-that-will-open-in-a-new-tab-bc06b7eb54aa and freeCodeCamp's https://www.sitepoint.com/create-chrome-extension-10-minutes-flat/
-
-
-
-//NEED TO UPDATE BELOW:
 ## Table of Contents
 
 - [General Info](#general-info)
@@ -12,14 +7,14 @@ Inspiration from Ryan Mariner Farney's blog post https://medium.com/@ryanfarney/
 <!-- - [To-Do](#future) -->
 
 ## <a name="general-info"></a>General Info
-New Tab, New Quote is a Chrome Extension that displays a new motivational quote every time the user opens a new browser tab.  
+New Tab, New Quote is a Chrome extension that displays a new motivational quote every time the user opens a new browser tab. Its purpose is to help viewers stay motivated to do their best work throughout the day.
 
 ## <a name="demo-video"></a>Demo Video
-See the live version here: https://jenny-chou.netlify.app/ and demo video below.
+See the demo video below:
 
 <div style="text-align:center">
   <kbd>
-    <img width="600" alt="Demo Video" src="https://media.giphy.com/media/sIn84IRGoQsPPyIoN3/giphy.gif">
+    <img width="600" alt="Demo Video" src="https://media.giphy.com/media/0y5oKBmrWj2m3Bi0xy/giphy.gif">
   </kbd>
 </div>
 
@@ -33,22 +28,18 @@ To have this app running on your local computer, please follow the below steps:
 
 Clone repository:
 ```
-$ git clone git@github.com:codecaviette/portfolio-project.git
-```
+$ git clone git@github.com:codecaviette/motivational-quote-generator.git
+
 Navigate to the project folder:
 ```
-$ cd portfolio-project-react
-```
-Install project dependencies:
-```
-$ yarn install
-```
-Run the project:
-```
-$ yarn start 
-```
+$ cd motivational-quote-generator
+
+
 <!--## <a name="future"></a>TODO✨
 - ✨ Add more quotes -->
+## Inspiration
+
+Inspiration from Ryan Mariner Farney's blog post https://medium.com/@ryanfarney/creating-a-chrome-extension-that-will-open-in-a-new-tab-bc06b7eb54aa and freeCodeCamp's https://www.sitepoint.com/create-chrome-extension-10-minutes-flat/ and https://www.freecodecamp.org/news/how-to-publish-your-chrome-extension-dd8400a3d53/
 
 ## Contributing
 
