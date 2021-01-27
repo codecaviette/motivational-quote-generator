@@ -14,10 +14,10 @@ let quotes = [
     'What are you going to do about it?',
     'Be the light, spread the love and joy.',
     'Your life is unfolding beautifully.',  
-    'Whether you think you can or think you can’t, you’re right.', 
+    'Whether you think you can or think you can\'t, you\'re right.', 
     'Always believe that something wonderful is about to happen.',
-    'If it doesn’t challenge you, it won’t change you.',
-    'Don’t fear failure. Fear being in the exact same place next year as you are today.'
+    'If it doesn\'t challenge you, it won\'t change you.',
+    'Don\'t fear failure. Fear being in the exact same place next year as you are today.'
 ]
 
 // Define function to generate random quote from quotes array each time the browser window is reloaded:
