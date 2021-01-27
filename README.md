@@ -29,11 +29,12 @@ To have this app running on your local computer, please follow the below steps:
 Clone repository:
 ```
 $ git clone git@github.com:codecaviette/motivational-quote-generator.git
+```
 
 Navigate to the project folder:
 ```
 $ cd motivational-quote-generator
-
+```
 
 <!--## <a name="future"></a>TODO✨
 - ✨ Add more quotes -->
