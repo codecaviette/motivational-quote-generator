@@ -36,6 +36,8 @@ Navigate to the project folder:
 $ cd motivational-quote-generator
 ```
 
+Open the index.html file in the Chrome browser.
+
 <!--## <a name="future"></a>TODO✨
 - ✨ Add more quotes -->
 ## Inspiration
