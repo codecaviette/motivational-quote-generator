@@ -17,8 +17,10 @@ let quotes = [
     'Whether you think you can or think you can\'t, you\'re right.', 
     'Always believe that something wonderful is about to happen.',
     'If it doesn\'t challenge you, it won\'t change you.',
-    'Don\'t fear failure. Fear being in the exact same place next year as you are today.'
+    'Don\'t fear failure. Fear being in the exact same place next year as you are today.',
+    'Set goals. Smash them.'
 ]
+
 
 // Define function to generate random quote from quotes array each time the browser window is reloaded:
     // Create variable randomArrayItem
