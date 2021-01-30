@@ -18,7 +18,8 @@ let quotes = [
     'Always believe that something wonderful is about to happen.',
     'If it doesn\'t challenge you, it won\'t change you.',
     'Don\'t fear failure. Fear being in the exact same place next year as you are today.',
-    'Set goals. Smash them.'
+    'Set goals. Smash them.',
+    'Strive for progress not perfection.'
 ]
 
 
