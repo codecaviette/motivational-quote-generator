@@ -10,6 +10,8 @@
 New Tab, New Quote is a Chrome extension that displays a new motivational quote every time the user opens a new browser tab. Its purpose is to help viewers stay motivated to do their best work throughout the day.
 
 ## <a name="demo-video"></a>Demo Video
+Download the live Chrome Extension here: https://chrome.google.com/webstore/detail/new-tab-new-quote/baieefbdnkhlffnjliobemgnbdgnbfld?hl=en
+
 See the demo video below:
 
 <div style="text-align:center">
