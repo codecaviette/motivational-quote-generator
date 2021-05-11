@@ -20,7 +20,8 @@ let quotes = [
     'Don\'t fear failure. Fear being in the exact same place next year as you are today.',
     'Set goals. Smash them.',
     'Strive for progress not perfection.',
-    'You are enough.'
+    'You are enough.',
+    'Make it happen.'
 ]
 
 
