@@ -24,17 +24,27 @@ let quotes = [
     'Make it happen.'
 ]
 
-
-// Define function to generate random quote from quotes array each time the browser window is reloaded:
-    // Create variable randomArrayItem
-        // Math.floor() fxn rounds down to the nearest whole number
-        // Math.random() fxn generates a random # btwn 0 and 1 (decimal)
-        // Since we want to generate a whole number between 0 and the highest array index, we'll multiply the random decimal # by length of the quotes array. This way, the fxn will also adjust with the number of array items as it fluctuates. 
-    // Update HTML doc to update what's displayed on browser
-        // document.getElementById('quoteDisplay') grabs the HTML element with HTML ID 'quoteDisplay' from the HTML doc
-        // .innerHTML method will pass a randomly retrieved quote from our array as the value that will be added into our HTML quoteDisplay element on HTML doc
-        // quotes[randomArrayItem] will be the randomly generated quote from the quotes array
-window.onload = function newQuote() {
-    let randomArrayItem = Math.floor(Math.random() * (quotes.length));
-    document.getElementById('quoteDisplay').innerHTML = quotes[randomArrayItem];
+// Generate random image from Unsplash API
+function getImage() {
+    let randomNum = Math.floor(Math.random() * 10);
+    let unsplashImage = document.getElementById('main');
+    let unsplashURL = 'https://api.unsplash.com/search/photos?page=1&query=office&client_id=608uPi9KyykYdW8YbT-msswgHNHjySRXfqbV4Ir4Kvc';
+    
+    fetch(unsplashURL)
+        .then((response) => response.json())
+        .then((data) => {
+            unsplashImage.style.backgroundImage = 'url(' + data.results[randomNum].urls.regular + ')';
+        });
 }
+
+// Generate random quote from quotes array and update div tag w id="quoteDisplay" 
+function getQuote() {
+    let randomNum = Math.floor(Math.random() * (quotes.length));
+    document.getElementById('quoteDisplay').innerHTML = quotes[randomNum];
+}
+
+// When window loads, call these functions
+window.onload = (event) => {
+    getImage();
+    getQuote();
+};
