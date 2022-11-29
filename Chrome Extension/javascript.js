@@ -40,7 +40,7 @@ function getImage() {
 // Generate random quote from quotes array and update div tag w id="quoteDisplay" 
 function getQuote() {
     let randomNum = Math.floor(Math.random() * (quotes.length));
-    document.getElementById('quoteDisplay').innerHTML = quotes[randomNum];
+    document.getElementById('randomQuote').innerHTML = quotes[randomNum];
 }
 
 // When window loads, call these functions
