@@ -1,5 +1,5 @@
 {
-    "manifest_version": 4,
+    "manifest_version": 3,
 
     "name": "New Tab, New Quote",
     "description": "This extension displays a new motivational quote every time you open a new Chrome browser tab.",
